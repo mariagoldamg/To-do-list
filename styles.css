@@ -1,0 +1,80 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    background: linear-gradient(to left, #7FBCD2, #FFD1D1 );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+body {
+    background-image:url(coffeecopy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-color: #FFD1D1;
+}
+.btn {
+    border: none;
+    padding: 20px;
+   background-color: #7FBCD2;
+   color: black;
+}
+.inputField {
+    border: none;
+    width: 40%;
+    padding: 10px;
+
+}
+
+.toDoAdded {
+    background-color: #7FBCD2;
+    list-style-type: none;
+    height: 50px;
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 2px;
+   
+}
+.toDo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.toDoComplete {
+    background-color: #FFEEAF;
+    color: black;
+    text-decoration: line-through;
+    font-weight: bold;
+    transition: all 2s ease;
+}
+
+
+
+
+
+@media all and (max-width:800px)
+
+{
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width:500px)
+
+{
+    h1 {
+        font-size: 20px;
+    }
+}
+
